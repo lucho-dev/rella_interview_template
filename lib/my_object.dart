@@ -1,11 +1,11 @@
-class MyObject {
+class CatObject {
   final String id;
   final String title;
   final String subtitle;
   final String imageUrl;
   int likes;
 
-  MyObject({
+  CatObject({
     required this.id,
     required this.title,
     required this.subtitle,
@@ -13,8 +13,8 @@ class MyObject {
     required this.likes,
   });
 
-  factory MyObject.create() {
-    return MyObject(
+  factory CatObject.create() {
+    return CatObject(
       id: 'id',
       title: 'The cutest cat',
       subtitle: 'Russian Blue Cat',

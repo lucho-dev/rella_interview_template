@@ -4,7 +4,7 @@ import 'package:interview_template/my_object.dart';
 class MyHomePage extends StatelessWidget {
   MyHomePage({super.key});
 
-  final myObject = MyObject.create();
+  final catObject = CatObject.create();
 
   @override
   Widget build(BuildContext context) {
